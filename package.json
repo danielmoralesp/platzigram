@@ -1,0 +1,12 @@
+{
+  "name": "Platzigram",
+  "version": "0.1.0",
+  "description": "Comparte tus fotos con el resto de la comunidad",
+  "main": "server.js",
+  "keywords": [],
+  "author": "Daniel",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.5"
+  }
+}
