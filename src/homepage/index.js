@@ -15,7 +15,8 @@ page('/', function(ctx, next){
       },
       url: 'http://materializecss.com/images/office.jpg',
       likes: 1024,
-      liked: true
+      liked: true,
+      createdAt: new Date()
     },
     {
       user: {
@@ -24,7 +25,8 @@ page('/', function(ctx, next){
       },
       url: 'https://instagram.fbog2-1.fna.fbcdn.net/t51.2885-15/e35/22426909_124831288180297_5253530316303237120_n.jpg',
       likes: 10024,
-      liked: true
+      liked: true,
+      createdAt: new Date().setDate(new Date().getDate() - 10)
     }
   ];
 
